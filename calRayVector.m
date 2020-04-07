@@ -23,7 +23,7 @@ function [pixel_opt, rayVector] = calRayVector(ydata, geoCaliPara, mirror_angle,
 %   point in 3D optical coordinate.
 %  For detailed description of 3D optical coordinate, please refer:
 %    Zhang, B., Iordachita, I., Wong, J. W., and Wang, K. K.-H., “Multi-projection bioluminescence tomography guided system for small animal radiation research platform ” Proc. SPIE 9701, Multimodal Biomedical Imaging XI, 97010J (2016).
-%
+% 
 %  Jack Xu, Johns Hopkins University, Dec 2019
 Lfd = geoCaliPara(1);
 Lfo = geoCaliPara(2);
